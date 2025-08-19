@@ -1,0 +1,23 @@
+#include <string>
+
+class Contact
+{
+    private:
+        std::string firstName;
+        std::string lastName;
+        std::string nickname;
+        std::string phoneNumber;
+        std::string darkestSecret;
+
+
+    public:
+        Contact();
+        ~Contact();
+
+        void setContact();
+        void printContact(int index);
+        void printFullContact();
+        bool isValid();
+
+
+};
